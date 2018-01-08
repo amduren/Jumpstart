@@ -18,3 +18,34 @@ nav {
   background-color: inherit;
   color: #399bd1;
 }
+
+/* bike jumbotron styles */
+.jumbotron {
+  text-align: center;
+  text-shadow: -1px -1px 0 #000,
+                1px -1px 0 #000,
+                1px  1px 0 #000,
+               -1px  1px 0 #000;
+  color: white;
+  padding: 11.85rem 0;
+}
+
+.jumbotron h1 {
+  font-family: "Monoton";
+  font-size: 7.1rem;
+}
+
+.jumbotron p {
+  max-width: 51.3rem;
+  margin: auto;
+}
+
+.jumbotron-bike {
+  background-image: url('../images/jumbotron-bike.jpg');
+}
+
+@media only screen and (max-width: 650px) {
+  .jumbotron h1 {
+    font-size: 5.7rem;
+  }
+}
