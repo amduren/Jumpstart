@@ -51,19 +51,23 @@ nav {
 }
 
 /* project styles */
-.featured-project h2 {
+main {
+  padding-bottom: 5.85rem;
+}
+
+.projects h2 {
   font-size: 1.7rem;
   font-weight: bold;
   color: #399bd1;
   padding-bottom: 20px;
 }
 
-.featured-project h3 {
+.projects h3 {
   font-size: 1.3rem;
   font-weight: bold;
 }
 
-.featured-project .categories h3 {
+.projects .categories h3 {
   color: #399bd1;
 }
 
@@ -72,7 +76,7 @@ nav {
   line-height: 1.4;
 }
 
-.featured-project .image-container img {
+.projects .image-container img {
   width: 100%;
 }
 
